@@ -2,8 +2,6 @@
 
 A simple React app for visualizing trends in the Norwegian property market:
 
-[Properties frontend](https://henrikig.github.io/properties_frontend/)
-
 ## Installation
 
 * Clone the repo
