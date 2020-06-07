@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+}
+
+@media (max-width: 960px) {
+    .container {
+      width: 100%;
+    }
+  }

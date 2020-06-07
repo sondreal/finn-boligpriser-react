@@ -1,0 +1,37 @@
+.card {
+    max-width: 100% !important;
+    margin: 0 2% !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 !important;
+  }
+
+.number {
+    border-bottom: 10px solid #1e88e5;
+}
+
+.price {
+    border-bottom: 10px solid #00897b;
+}
+
+.average {
+  border-bottom: 10px solid #8e24aa;
+}
+
+@media (min-width: 960px) {
+    .gridwidth {
+      width: 150% !important;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .card {
+      margin: 2% 0 !important;
+      max-width: 50%;
+      flex-basis: 70% !important;
+    }
+  }

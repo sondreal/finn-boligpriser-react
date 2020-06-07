@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+
+li {
+    float: left;
+    margin: 2px;
+}
+
+.locations {
+    max-width: 65%;
+    margin-bottom: 3vh;
+    margin-top: 0;
+}
+
+@media (max-width: 960px) {
+    .locations {
+      max-width: 100%;
+    }
+  }
